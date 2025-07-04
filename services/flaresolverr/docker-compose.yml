@@ -1,0 +1,11 @@
+version: '3.8'
+services:
+  flaresolverr:
+    image: flaresolverr/flaresolverr:latest
+    container_name: flaresolverr
+    ports:
+      - "8191:8191"
+    environment:
+      - LOG_LEVEL=info
+      - TZ=Asia/Kolkata
+    restart: unless-stopped

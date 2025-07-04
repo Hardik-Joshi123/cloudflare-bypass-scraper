@@ -1,0 +1,3 @@
+# Example proxies (replace with real ones)
+user:pass@123.45.67.89:8080
+user:pass@98.76.54.32:3128

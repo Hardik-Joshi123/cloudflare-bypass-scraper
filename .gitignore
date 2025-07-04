@@ -1,0 +1,31 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Output and log files
+output.html
+scraper.log
+
+# Environment files
+.env
+.venv/
+env/
+venv/
+*.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE/project files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Chrome profiles (keep private)
+chrome_profiles/
+
+# Docker artifacts
+services/flaresolverr/*.pid 
