@@ -27,23 +27,6 @@ A robust, stealthy, and fully automated web scraping framework designed to bypas
 
 ---
 
-## 📦 Directory Structure
-cloudflare_bypass_scraper/
-├── chrome_profiles/ # Real Chrome user profiles (excluded from git)
-├── config/
-│ ├── proxies.txt # List of proxies
-│ └── user_agents.txt # List of user agents
-├── main.py/
-│ └── main.py # Entry point
-├── services/
-│ └── flaresolverr/
-│ └── docker-compose.yml # Docker Compose for Flaresolverr
-├── targets/
-│ └── rajasthan_gov.py # Example target scraper
-└── utils/ # Utilities for stealth, proxies, etc.
-
----
-
 ## ⚡ Quick Start
 
 ### 1. **Clone the Repository**
